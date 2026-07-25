@@ -1,8 +1,8 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=EB+Garamond:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --font-baloo: 'Baloo 2', cursive, sans-serif;
