@@ -1,0 +1,42 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=EB+Garamond:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+:root {
+  --font-baloo: 'Baloo 2', cursive, sans-serif;
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+body {
+  color: #1e1b6b;
+  background-color: #ffffff;
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
+
+/* Background Soft Lavender Wash Texture */
+.bg-lavender-wash {
+  background: radial-gradient(circle at 15% 15%, rgba(201, 203, 240, 0.45) 0%, rgba(238, 240, 251, 0.6) 40%, rgba(255, 255, 255, 1) 100%);
+}
+
+.bg-hero-pattern {
+  background-color: #ffffff;
+  background-image: radial-gradient(#c9cbf0 0.75px, transparent 0.75px), radial-gradient(#c9cbf0 0.75px, #ffffff 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Soft Cloud Watercolor Background Effect */
+.cloud-watercolor {
+  background: radial-gradient(ellipse at center, rgba(201, 203, 240, 0.7) 0%, rgba(126, 200, 227, 0.35) 45%, rgba(255, 255, 255, 0) 70%);
+}
+
+/* Card glassmorphism */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 203, 240, 0.6);
+}
